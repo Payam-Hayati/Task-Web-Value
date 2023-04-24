@@ -1,0 +1,141 @@
+@font-face {
+  font-family: Montserrat-SemiBold;
+  src: url(fonts/Montserrat-SemiBold.ttf);
+}
+
+body {
+  font-family: Montserrat-SemiBold;
+}
+
+.main {
+  max-width: 1250px;
+  height: 600px;
+  background-color: #f4f4f4;
+  margin: 5% auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.pink-line {
+  width: 0;
+  height: 0;
+  border-bottom: 150px solid #ef135c;
+  border-right: 150px solid transparent;
+  position: absolute;
+  top: 451px;
+}
+
+.dark-line {
+  width: 600px;
+  height: 130px;
+  background: #2e2e2e;
+  position: absolute;
+  top: 400px;
+  left: -200px;
+  transform: rotate(45deg);
+  overflow: hidden;
+}
+
+.dark-line-2 {
+  width: 600px;
+  height: 80px;
+  background: #2e2e2e;
+  position: absolute;
+  top: 50px;
+  right: -245px;
+  transform: rotate(45deg);
+  overflow: hidden;
+}
+
+.pink-line-2 {
+  width: 800px;
+  height: 130px;
+  background: #ef135c;
+  position: absolute;
+  top: 300px;
+  left: -220px;
+  transform: rotate(45deg);
+  overflow: hidden;
+}
+
+.pink-line-3 {
+  width: 0;
+  height: 0;
+  border-bottom: 150px solid #ef135c;
+  border-right: 150px solid transparent;
+  position: absolute;
+  top: -30px;
+  right: -30px;
+  transform: rotate(180deg);
+}
+
+.user {
+  position: absolute;
+  left: 100px;
+  top: 90px;
+}
+
+.logo {
+  position: absolute;
+  left: 300px;
+  top: 380px;
+}
+
+.logo img {
+  border-radius: 30px;
+  width: 150px;
+  height: 150px;
+}
+
+.text-content {
+  max-width: 500px;
+  margin: 100px auto auto 550px;
+}
+
+.contact {
+  padding: 50px;
+}
+
+.contact label {
+  font-size: 18px;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+.seperate-line {
+  background-color: #221d27;
+  min-width: 100%;
+  height: 3px;
+  margin-top: 15px;
+}
+
+.my-buttons {
+  max-width: 500px;
+  border: soild 1px red;
+  margin: -50px auto;
+}
+
+.my-buttons button {
+  background: #005c97; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #363795,
+    #005c97
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #363795,
+    #005c97
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  border: none;
+  border-radius: 5px;
+  padding: 4px 10px 4px 10px;
+  color: whitesmoke;
+  transition: all 0.5s ease-in-out;
+}
+
+.my-buttons button:hover {
+  background: whitesmoke;
+  color: #363795;
+}
